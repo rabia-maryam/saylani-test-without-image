@@ -36,8 +36,10 @@ if(loading){
    <h1>Your posts</h1>
    <div>
     {postListState.map((postData)=>(
-      <div key={postData.id}>
-        <img src={postData.pic} alt=''/>
+      <div key={postData.id} id='new-post'>
+        <h2 className='title'>picture's name :</h2>
+        <h3> {postData.pic}</h3>
+        <h2 className='title'>Description : </h2>
         <h3>{postData.des}</h3>
       </div>
     ))}

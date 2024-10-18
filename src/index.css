@@ -44,4 +44,12 @@ nav{
   display: block;
   margin: 3px;
 }
+#new-post{
+  border: 2px solid black;
+  margin: 10px;
+}
+.title{
+  color: cadetblue;
+}
+
 
